@@ -22,9 +22,11 @@
 #include <folly/gen/Base.h>
 #include <folly/gen/Core.h>
 #include <folly/stats/Histogram-defs.h>
-#include <folly/ThreadName.h>
+#include <folly/system/ThreadName.h>
+#include <folly/String.h>
+#include <folly/Format.h>
 
-#include <folly/Logging.h>
+#include <folly/GLog.h>
 
 using namespace std;
 using namespace folly;

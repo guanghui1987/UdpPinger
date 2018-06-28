@@ -15,6 +15,7 @@
 #include <folly/io/async/EventBaseManager.h>
 #include <folly/io/async/NotificationQueue.h>
 #include <folly/stats/Histogram.h>
+#include <folly/ExceptionString.h>
 
 #include "AsyncUDPSocket.h"
 #include "../common/Probe.h"

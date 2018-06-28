@@ -8,6 +8,7 @@
  */
 
 #include <fstream>
+#include <iostream>
 #include <thread>
 #include <gflags/gflags.h>
 

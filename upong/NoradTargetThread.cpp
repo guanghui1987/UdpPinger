@@ -21,7 +21,7 @@
 
 #include <folly/Format.h>
 #include <folly/Memory.h>
-#include <folly/Logging.h>
+#include <folly/GLog.h>
 
 // Due to the way kernel headers are included, this may or may not be defined.
 // Number pulled from 3.10 kernel headers.
